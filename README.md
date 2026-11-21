@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/think-from-zero-banner.png" alt="think-from-zero — reason from first principles" width="100%">
+  <img src="assets/think-from-zero-banner.jpg" alt="think-from-zero — reason from first principles" width="100%">
 </p>
 
 <h1 align="center">think-from-zero</h1>
@@ -246,7 +246,7 @@ think-from-zero/
 │   └── references/
 │       └── examples.md       # engineering · product · career walkthroughs
 ├── assets/
-│   ├── think-from-zero-banner.png
+│   ├── think-from-zero-banner.jpg
 │   ├── analogy-vs-bedrock.jpg
 │   ├── calibrated-effort.jpg
 │   ├── method-flow.jpg
