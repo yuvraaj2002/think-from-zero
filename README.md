@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="think-from-zero — reason from first principles" width="100%">
+  <img src="assets/think-from-zero-banner.png" alt="think-from-zero — reason from first principles" width="100%">
 </p>
 
 <h1 align="center">think-from-zero</h1>
@@ -28,6 +28,14 @@
 
 ## The problem
 
+<p align="center">
+  <img src="assets/analogy-vs-bedrock.jpg" alt="Left: copying by analogy. Right: rebuilding from first principles." width="100%">
+</p>
+
+<p align="center">
+  <sub>Left — reason by analogy (copy the recipe). Right — reason from zero (rebuild from primitives).</sub>
+</p>
+
 Most AI answers — and most human ones — sound like this:
 
 > "Everyone uses Kafka / Pinecone / microservices / a Pro tier. So you should too."
@@ -51,6 +59,14 @@ No theatre. No "it depends" without a recommendation.
 ## Why this one
 
 Several first-principles skills exist. This one is built to stay installed:
+
+<p align="center">
+  <img src="assets/calibrated-effort.jpg" alt="Calibrated effort — trivial choices stay light; high stakes get the full teardown." width="100%">
+</p>
+
+<p align="center">
+  <sub>Calibrated effort: most choices stay in the small circle. Depth is rare and deliberate.</sub>
+</p>
 
 | | |
 |---|---|
@@ -161,23 +177,31 @@ What problem does a queue solve? Build it from primitives.
 
 ## How the method works
 
-```text
-  Calibrate stakes  →  Gather evidence  →  Restate the real goal
-           ↓
-  Tag assumptions: FACT · CONVENTION · GUESS
-           ↓
-  Reduce to bedrock truths (stop before theatre)
-           ↓
-  Rebuild ≥2 options from those truths only
-           ↓
-  Sanity-check: Fermi · inversion · counterexample
-           ↓
-  Diff vs convention (include switching cost)
-           ↓
-  One answer · confidence · kill assumption · cheapest test
-```
+<p align="center">
+  <img src="assets/method-flow.jpg" alt="Seven-step first-principles method flow" width="100%">
+</p>
+
+<p align="center">
+  <sub>Calibrate → gather → goal → tag assumptions → bedrock → rebuild → verify &amp; test</sub>
+</p>
+
+<p align="center">
+  <img src="assets/assumption-tags.jpg" alt="FACT, CONVENTION, and GUESS assumption tags" width="100%">
+</p>
+
+<p align="center">
+  <sub>Every assumption is tagged: <strong>FACT</strong> (verified) · <strong>CONVENTION</strong> (inherited) · <strong>GUESS</strong> (untested)</sub>
+</p>
 
 **Modes**
+
+<p align="center">
+  <img src="assets/three-modes.jpg" alt="Decide, Explain, and Hybrid modes" width="100%">
+</p>
+
+<p align="center">
+  <sub><strong>Decide</strong> · <strong>Explain</strong> · <strong>Hybrid</strong></sub>
+</p>
 
 - **Decide** (default) — pressure-test a plan, design, cost, or claim.
 - **Explain** — Feynman-style: primitives → one analogy (and where it breaks) → tiny example → check questions → one-liner.
@@ -222,7 +246,12 @@ think-from-zero/
 │   └── references/
 │       └── examples.md       # engineering · product · career walkthroughs
 ├── assets/
-│   └── banner.png
+│   ├── think-from-zero-banner.png
+│   ├── analogy-vs-bedrock.jpg
+│   ├── calibrated-effort.jpg
+│   ├── method-flow.jpg
+│   ├── assumption-tags.jpg
+│   └── three-modes.jpg
 ├── RESOURCES.md              # lectures, essays, books, prior art
 ├── README.md
 └── LICENSE
